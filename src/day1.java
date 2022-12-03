@@ -1,5 +1,3 @@
-package days;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -9,7 +7,7 @@ import java.util.List;
 public class day1 {
 
     public void elfCalories_pt1() throws IOException {
-        String file = "src/days/input/d1.txt";
+        String file = "src/input/d1.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         int largestSum = 0;
         int currSum = 0;
@@ -32,7 +30,7 @@ public class day1 {
         System.out.println("Day1_pt1 result: " + largestSum);
     }
     public void elfCalories_pt2() throws IOException {
-        String file = "src/days/input/d1.txt";
+        String file = "src/input/d1.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         int sumOfFirstThree = 0;
         int currSum = 0;

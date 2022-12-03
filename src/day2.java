@@ -1,5 +1,3 @@
-package days;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,7 +5,7 @@ import java.io.IOException;
 public class day2 {
 
     public void elfRockPaperScissors_pt1() throws IOException {
-        String file = "src/days/input/d2.txt";
+        String file = "src/input/d2.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String currLine;
         int totalScore = 0;
@@ -52,7 +50,7 @@ public class day2 {
     }
 
     public void elfRockPaperScissors_pt2() throws IOException {
-        String file = "src/days/input/d2.txt";
+        String file = "src/input/d2.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String currLine;
         int totalScore = 0;

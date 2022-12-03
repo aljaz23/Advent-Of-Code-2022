@@ -1,7 +1,3 @@
-import days.day1;
-import days.day2;
-import days.day3;
-
 import java.io.IOException;
 
 public class Main {
@@ -20,4 +16,6 @@ public class Main {
         d3.rucksackReorganization_pt1();
         d3.rucksackReorganization_pt2();
     }
+
+
 }

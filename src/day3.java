@@ -1,5 +1,3 @@
-package days;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,7 +5,7 @@ import java.io.IOException;
 public class day3 {
 
     public void rucksackReorganization_pt1() throws IOException {
-        String file = "src/days/input/d3.txt";
+        String file = "src/input/d3.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String currLine;
         int sumItems = 0;
@@ -40,7 +38,7 @@ public class day3 {
         System.out.println("Day3_pt1 result: " + sumItems);
     }
     public void rucksackReorganization_pt2() throws IOException {
-        String file = "src/days/input/d3.txt";
+        String file = "src/input/d3.txt";
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String firstLine, secondLine, thirdLine;
         int sumItems = 0;

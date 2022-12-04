@@ -15,6 +15,13 @@ public class Main {
         day3 d3 = new day3();
         d3.rucksackReorganization_pt1();
         d3.rucksackReorganization_pt2();
+
+        day4 d4 = new day4();
+        d4.campCleanup_pt1_or_pt2(1);
+        d4.campCleanup_pt1_or_pt2(2);
+
+
+
     }
 
 

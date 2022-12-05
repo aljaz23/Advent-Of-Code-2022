@@ -34,7 +34,6 @@ public class day5 {
                 System.out.printf("Day5_pt%s result: %s\n", whichPart, message);
                 break;
             }
-            // move 1 from 2 to 1
             List<Integer> positions = CargoPositions(currLine);
             int howManyCargosToMove = positions.get(0);
             int fromWhichPosition = positions.get(1) - 1;

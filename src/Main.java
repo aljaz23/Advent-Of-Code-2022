@@ -2,6 +2,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
         day1 d1 = new day1();
         d1.elfCalories_pt1();
         d1.elfCalories_pt2();
@@ -21,6 +22,10 @@ public class Main {
         day5 d5 = new day5();
         d5.supplyStacks_pt1_or_pt2(1);
         d5.supplyStacks_pt1_or_pt2(2);
+
+        day6 d6 = new day6();
+        d6.tuningTrouble_pt1_or_pt2(1);
+        d6.tuningTrouble_pt1_or_pt2(2);
 
     }
 
